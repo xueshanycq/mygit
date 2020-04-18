@@ -1,0 +1,10 @@
+server:
+  port: 9091
+
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/zwh
+    username: root
+    password: admin
+    type: com.alibaba.druid.pool.DruidDataSource

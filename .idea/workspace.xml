@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b081a67-4459-4a13-9639-2864120dffaa" name="Default Changelist" comment="提交一个项目">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/ZwhApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/configutation/mybatis/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/configutation/mybatis/MybatisMapperScannerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/configutation/shiro/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/configutation/shiro/ShiroConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/configutation/swagger2/SwaggerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/controller/SystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/controller/UserJoinRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/enums/DateStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/enums/UserSexEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/mapper/base/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/mapper/system/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/mapper/system/RoleJoinPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/mapper/system/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/mapper/system/UserJoinRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/mapper/system/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/model/PermissionDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/model/RoleDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/model/RoleJoinPermissionDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/model/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/model/UserJoinRoleDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/model/base/BaseDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/service/RoleJoinPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/service/UserJoinRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/service/impl/RoleJoinPermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/service/impl/UserJoinRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/utils/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/utils/IdUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/utils/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuncan/utils/ModelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleJoinPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserJoinRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/chuncan/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/zwh.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/ZwhApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/configutation/mybatis/MybatisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/configutation/mybatis/MybatisMapperScannerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/configutation/shiro/CustomRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/configutation/shiro/ShiroConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/configutation/swagger2/SwaggerConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/controller/PermissionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/controller/SystemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/controller/UserJoinRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/enums/DateStateEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/enums/UserSexEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/mapper/base/BaseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/mapper/system/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/mapper/system/RoleJoinPermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/mapper/system/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/mapper/system/UserJoinRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/mapper/system/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/model/PermissionDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/model/RoleDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/model/RoleJoinPermissionDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/model/UserDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/model/UserJoinRoleDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/model/base/BaseDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/service/PermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/service/RoleJoinPermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/service/UserJoinRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/service/impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/service/impl/RoleJoinPermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/service/impl/UserJoinRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/utils/ErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/utils/IdUtils$DigestUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/utils/IdUtils$MathUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/utils/IdUtils$NetworkUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/utils/IdUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/utils/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/chuncan/utils/ModelUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/RoleJoinPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserJoinRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/chuncan/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zwh.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="xuesh" />
+        <option value="xueshan" />
+        <option value="zwh" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\java_work\ideaworkspace\zwh\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\JavaSoftWare\apache-maven-3.6.3\repo" />
+        <option name="mavenHome" value="D:/JavaSoftWare/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\JavaSoftWare\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aFXeQtg8SivGLRv8Nxe1vETEHq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mygit" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.chuncan.service." />
+      <recent name="com.chuncan.mapper.system" />
+      <recent name="com.chuncan.service.impl" />
+      <recent name="com.chuncan.service" />
+      <recent name="com.chuncan.mapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ZwhApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zwh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chuncan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chuncan.ZwhApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZwhApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b081a67-4459-4a13-9639-2864120dffaa" name="Default Changelist" comment="" />
+      <created>1586332410728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586332410728</updated>
+      <workItem from="1586332412679" duration="6939000" />
+      <workItem from="1586341294848" duration="1853000" />
+      <workItem from="1586347819310" duration="6787000" />
+      <workItem from="1586404183500" duration="643000" />
+      <workItem from="1586436505921" duration="5338000" />
+      <workItem from="1586447821375" duration="315000" />
+      <workItem from="1586448547556" duration="2459000" />
+      <workItem from="1586451473122" duration="99000" />
+      <workItem from="1586486176987" duration="13466000" />
+      <workItem from="1586522570810" duration="7411000" />
+      <workItem from="1586565148468" duration="10018000" />
+      <workItem from="1586602463994" duration="7515000" />
+      <workItem from="1586622260589" duration="1317000" />
+      <workItem from="1586679309901" duration="2753000" />
+      <workItem from="1586738637603" duration="26000" />
+      <workItem from="1586740489536" duration="1080000" />
+      <workItem from="1586741596234" duration="3128000" />
+      <workItem from="1586747679205" duration="18205000" />
+      <workItem from="1586780052913" duration="5609000" />
+      <workItem from="1586826756225" duration="8030000" />
+      <workItem from="1586846038484" duration="631000" />
+      <workItem from="1587017411457" duration="4266000" />
+      <workItem from="1587035068792" duration="25862000" />
+      <workItem from="1587084035284" duration="9469000" />
+      <workItem from="1587100204790" duration="14437000" />
+      <workItem from="1587121102256" duration="13510000" />
+      <workItem from="1587171340242" duration="4552000" />
+      <workItem from="1587186739742" duration="12223000" />
+      <workItem from="1587217541047" duration="2216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="应该时首次提交" />
+    <MESSAGE value="提交一个项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交一个项目" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="319" y="23" key="#Deployment" timestamp="1587219501625">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="319" y="23" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1587219501625" />
+    <state x="413" y="122" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586358003608">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="122" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586358003608" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1587191263745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587191263745" />
+    <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587095233741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="140" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1587095233741" />
+    <state x="412" y="326" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586333518043">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="326" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1586333518043" />
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1587219553561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587219553561" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1587218164503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587218164503" />
+    <state width="1323" height="485" key="GridCell.Tab.0.bottom" timestamp="1587200444135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="485" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587200444135" />
+    <state width="1323" height="485" key="GridCell.Tab.0.center" timestamp="1587200444135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="485" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587200444135" />
+    <state width="1323" height="485" key="GridCell.Tab.0.left" timestamp="1587200444135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="485" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587200444135" />
+    <state width="1323" height="485" key="GridCell.Tab.0.right" timestamp="1587200444135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="485" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587200444135" />
+    <state width="1323" height="485" key="GridCell.Tab.1.bottom" timestamp="1587200444135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="485" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587200444135" />
+    <state width="1323" height="485" key="GridCell.Tab.1.center" timestamp="1587200444135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="485" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587200444135" />
+    <state width="1323" height="485" key="GridCell.Tab.1.left" timestamp="1587200444135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="485" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587200444135" />
+    <state width="1323" height="485" key="GridCell.Tab.1.right" timestamp="1587200444135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="485" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587200444135" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1587218041153">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587218041153" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587199934219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587199934219" />
+    <state x="482" y="145" key="chooseDestDirectoryDialog" timestamp="1586499679013">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="145" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1586499679013" />
+    <state x="467" y="155" key="git4idea.merge.GitPullDialog" timestamp="1587200434713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="467" y="155" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1587200434713" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586487316516">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586487316516" />
+  </component>
+</project>
