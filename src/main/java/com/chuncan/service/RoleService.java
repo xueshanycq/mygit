@@ -13,10 +13,10 @@ public interface RoleService {
 
     /**
      * 根据角色id查询对应的角色信息
-     * @param id
+     * @param roleId
      * @return
      */
-    RoleDO getRoleById(String id);
+    RoleDO getRoleById(String roleId);
 
     /**
      * 查询所有角色的信息

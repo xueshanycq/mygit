@@ -31,7 +31,7 @@ public class CustomRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
 
-        //1.定义权限信心类用于存储权限信息
+        //1.定义权限信息类用于存储权限信息
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
 
         //2.根据用户名获取该用户的权限信息
@@ -43,10 +43,7 @@ public class CustomRealm extends AuthorizingRealm {
                 info.addRole(role.getRoleName());
                 for (PermissionDO permission : role.getPermissions()) {
                     info.addStringPermission(permission.getPermissionName());
-
-
                 }
-                
             }
         }
 
