@@ -20,17 +20,17 @@ public interface UserService {
 
     /**
      * 用户登录验证
-     * @param userName
+     * @param username
      * @param password
      * @return
      */
-    int login(String userName,String password);
+    int login(String username,String password);
 
     /**
      * 获取用户所有信息
      * @return
      */
-    List<UserDO> listUser();
+    List<UserDO> listUser(UserDO userDO);
 
     /**
      * 新增用户信息
@@ -54,5 +54,5 @@ public interface UserService {
     Boolean deleteUser(String userId);
 
 
-    UserDO getUserByUserName(String userName);
+    UserDO getUserByUsername(String username);
 }

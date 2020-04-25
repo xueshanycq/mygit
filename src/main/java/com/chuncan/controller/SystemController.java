@@ -29,11 +29,11 @@ public class SystemController {
 
     @ApiOperation("登录方法")
     @GetMapping("/login")
-    public Message login(String userName, String password) {
+    public Message login(String username, String password) {
 
         Subject subject = SecurityUtils.getSubject();
 
-        UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(userName, password);
+        UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(username, password);
 
         try {
             subject.login(usernamePasswordToken);
@@ -55,7 +55,7 @@ public class SystemController {
     }
 }
 
-//        int code = userService.login(userName,password);
+//        int code = userService.login(username,password);
 //        if(code == 200){
 //            return new Message("登录成功",200);
 //        }else if (code == 4001){

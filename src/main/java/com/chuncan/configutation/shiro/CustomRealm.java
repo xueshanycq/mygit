@@ -35,7 +35,7 @@ public class CustomRealm extends AuthorizingRealm {
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
 
         //2.根据用户名获取该用户的权限信息
-        UserDO userDO = userService.getUserByUserName(principalCollection.getPrimaryPrincipal().toString());
+        UserDO userDO = userService.getUserByUsername(principalCollection.getPrimaryPrincipal().toString());
 
         if (userDO != null){
 

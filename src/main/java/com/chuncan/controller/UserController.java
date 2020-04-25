@@ -40,9 +40,9 @@ public class UserController {
     @ApiOperation("查询所有用户的信息")
     @GetMapping("/findUserAll")
     @RequiresPermissions(value = "user_find")
-    public List<UserDO> findUserAll(){
+    public List<UserDO> findUserAll(UserDO userDO){
 
-        return userService.listUser();
+        return userService.listUser(userDO);
     }
 
     @ApiOperation("新增用户接口")

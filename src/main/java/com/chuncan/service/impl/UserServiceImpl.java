@@ -70,15 +70,15 @@ public class UserServiceImpl implements UserService {
 
     /**
      * 用户登录验证
-     * @param userName
+     * @param username
      * @param password
      * @return
      */
     @Override
-    public int login(String userName, String password) {
+    public int login(String username, String password) {
 
         UserDO userDO = new UserDO();
-        userDO.setUserName(userName);
+        userDO.setUsername(username);
         userDO = userMapper.selectOne(userDO);
 
         if(userDO != null){
@@ -98,8 +98,16 @@ public class UserServiceImpl implements UserService {
      * @return
      */
     @Override
-    public List<UserDO> listUser() {
-        return userMapper.selectAll();
+    public List<UserDO> listUser(UserDO userDO) {
+//        查出了包括角色和权限信息
+//        List<UserDO> userList = new ArrayList<>();
+//        List<UserDO> userDOList = userMapper.selectAll();
+//        for (UserDO user : userDOList) {
+//            String userId = user.getId();
+//            UserDO user1 = getUserById(userId);
+//            userList.add(user1);
+//        }
+        return userMapper.select(userDO);
     }
 
     /**
@@ -151,9 +159,9 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public UserDO getUserByUserName(String userName) {
+    public UserDO getUserByUsername(String username) {
         UserDO userDO = new UserDO();
-        userDO.setUserName(userName);
+        userDO.setUsername(username);
         userDO = userMapper.selectOne(userDO);
 
         if (userDO!=null){

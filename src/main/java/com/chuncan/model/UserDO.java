@@ -22,7 +22,7 @@ public class UserDO extends BaseDO {
 
     //用户名
     @Column(name = "username")
-    private String userName;
+    private String username;
 
     //用户密码
     @Column(name = "password")
